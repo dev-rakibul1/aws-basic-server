@@ -8,6 +8,11 @@ app.get('/', (req, res) => {
   res.send('Congratulation from BPS!')
 })
 
+// Basic GET request
+app.get('/user', (req, res) => {
+  res.send('This is a user app.')
+})
+
 // Start server
 app.listen(PORT, () => {
   console.log(`🚀 Server is running at http://localhost:${PORT}`)

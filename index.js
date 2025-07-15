@@ -5,7 +5,7 @@ const PORT = 3000
 
 // Basic GET request
 app.get('/', (req, res) => {
-  res.send('Congratulation from BPS!')
+  res.send('Congratulation from BPS! add nginx')
 })
 
 // Basic GET request
